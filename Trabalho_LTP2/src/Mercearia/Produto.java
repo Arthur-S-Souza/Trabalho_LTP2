@@ -162,7 +162,7 @@ public class Produto {
 
 			Class.forName("com.mysql.jdbc.Driver");
 
-			return DriverManager.getConnection("jdbc:mysql://localhost/AulaLTP2", "root", "root");
+			return DriverManager.getConnection("jdbc:mysql://localhost/AulaLTP2:3306", "root", "root");
 
 		}
 	}
